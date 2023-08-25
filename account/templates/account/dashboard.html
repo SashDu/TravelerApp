@@ -4,5 +4,7 @@
 
 {% block content %}
     <h1>TravelerApp</h1>
-    <p>Welcome to your TravelerApp.</p>
+    <p>Welcome to your TravelerApp.You can <a href="{% url 'edit' %}">edit your profile</a>
+    or <a href="{% url 'password_change' %}">change your password</a>.
+    </p>
 {% endblock %}
