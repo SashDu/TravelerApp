@@ -5,9 +5,15 @@ body {
     padding:0;
     font-family:helvetica, sans-serif;
 }
-
+.centered-paragraph {
+    line-height: 1.8;
+    padding: 0;
+    text-align: center;
+}
 p {
     line-height: 1.8;
+    padding: 0 0 0 0;
+    text-align: left;
 }
 
 a {
@@ -22,9 +28,14 @@ a:hover {
 h1, h2, h3, h4, h5 , h6 { font-family: 'Muli', sans-serif; font-weight:normal; }
 
 h1 {
-    border-bottom:1px solid #bbb;
-    padding:0 0 10px 0;
-    margin:10px 0 20px 0;
+    padding: 20px 0 10px 700px;
+    margin: 200px 0 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    position: relative;
 }
 
 h2 {
@@ -169,7 +180,8 @@ ul.messages li a.close {
 }
 
 .login-form {
-    float:left;
+    width: 250px;
+    margin: 0 auto;
 }
 
 /* social-auth */
